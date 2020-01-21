@@ -1,13 +1,15 @@
 def welcome
   # code #welcome here
+  puts "yo"
 end
 
 def deal_card
-  # code #deal_card here
+  rand(1..11)
 end
 
 def display_card_total
   # code #display_card_total here
+  puts "Your total is #{card_total}"
 end
 
 def prompt_user
