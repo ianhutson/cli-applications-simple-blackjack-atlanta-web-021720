@@ -22,7 +22,7 @@ def get_user_input
   gets.chomp.strip
 end
 
-def end_game
+def end_game(card_total)
   # code #end_game here
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
@@ -34,7 +34,7 @@ def initial_round
   return first_round
 end
 
-def hit?
+def hit?(card_total)
   # code hit? here
   valid_inputs = ["h", "s"]
   prompt_user
