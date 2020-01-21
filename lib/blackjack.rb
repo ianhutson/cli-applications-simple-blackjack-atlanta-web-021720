@@ -38,7 +38,7 @@ def hit?
   # code hit? here
   valid_inputs = ["h", "s"]
   prompt_user
-  User_input = get_user_input
+  user_input = get_user_input
   
   until valid_inputs.include?(user_input)
   invalid_command
